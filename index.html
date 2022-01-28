@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Código Secreto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">Código Secreto</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <h2 for="input-texto">Mensagem</h2>
+        <center>
+          <textarea class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Insira o texto aqui"></textarea>
+          <input class="btn" type="button" value="criptografar" id="btn-cripto">
+          <input class="btn" type="button" value="descriptografar" id="btn-descripto">
+        </center>
+      </form>
+    </section>
+
+    <section class="msg box">
+      <h2 id="">Resultado</h2>
+      <textarea class="text-input" type="text" id="msg" placeholder="Veja aqui a mensagem"></textarea>
+      <center>
+        <input class="btn" type="submit" value="copiar" id="btn-copy">
+      </center>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+<footer>
+  Alura Challenge | Oracle ONE | Rafael Carvalho
+</footer>
+</html>
