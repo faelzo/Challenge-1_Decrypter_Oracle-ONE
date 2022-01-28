@@ -7,13 +7,22 @@ Coding:
 "e" -> "enter"
 <br>
 "i" -> "imes"
+<br>
 "a" -> "ai"
+<br>
 "o" -> "ober"
+<br>
 "u" -> "ufat"
-
+<br>
+<br>
 Decoding:
+<br>
 "enter" -> "e"
+<br>
 "imes" -> "i"
+<br>
 "ai" -> "a"
+<br>
 "ober" -> "o"
+<br>
 "ufat" -> "u"
